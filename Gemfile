@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'rack'
+gem 'puma'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
@@ -33,19 +34,12 @@ gem 'dcdevsso2', '2.1', :path => './vendor/cache/dcdevsso2-2.1'
 # pagination gem
 gem 'will_paginate', '3.0.7'
 # bootstrap and other ui gems
-
 gem 'jquery-turbolinks', '2.1.0'
-
 gem 'bootstrap-sass', '3.3.5.1'
-
 gem 'autoprefixer-rails', '8.6.4'
-
 gem 'select2-rails', '3.5.9.3'
-
 gem 'jquery-ui-rails', '5.0.5'
-
 gem 'jquery-timepicker-addon-rails', '1.4.1'
-
 gem 'jasny_bootstrap_extension_rails', '0.0.1'
 # Highcharts
 gem "highcharts-rails", '4.1.5'
@@ -54,23 +48,13 @@ gem 'activerecord-sqlserver-adapter', '4.2.4'
 gem 'tiny_tds', '2.1.2'
 #soap call gem
 gem 'savon', '2.11.1'
-
 gem 'rubyntlm', '0.6.1'
-
 gem 'ruby-ntlm', '0.0.4'
-
- 
-
 # gems for MAIL
-
 gem 'nokogiri', '1.8.4'
-
 gem 'htmlentities', '4.3.4'
-
 gem 'css_parser', '1.4.7'
-
 gem 'premailer', '1.8.7'
-
 gem 'premailer-rails', '1.9.5'
 
 
